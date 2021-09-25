@@ -1,0 +1,11 @@
+{
+  "name": "sneaker-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/moygospadin/sneakers_bot.git",
+  "author": "aliaksei bialenka <lesha.belenko>",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^10.4.0"
+  }
+}
