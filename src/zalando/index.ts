@@ -1,17 +1,17 @@
 import puppeteer from "puppeteer-extra";
 
 import StealthPlugin from "puppeteer-extra-plugin-stealth";
-
+puppeteer.use(StealthPlugin());
 import { zalandoUrls, zalandoText } from "../consts/links";
 import { element2selector } from "puppeteer-element2selector";
 import { IProps } from "./types";
 
-
 async function zalandoLogin({ CREDS }: IProps) {
   const url = zalandoUrls.mainUrl;
-  puppeteer.use(StealthPlugin());
+
   const browser = await puppeteer.launch({
     headless: false,
+    ignoreDefaultArgs: ["--enable-automation"],
   });
   const page = await browser.newPage();
 

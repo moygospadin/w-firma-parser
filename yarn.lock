@@ -435,6 +435,14 @@ puppeteer-element2selector@0.0.3:
   dependencies:
     "@medv/finder" "^2.0.0"
 
+puppeteer-extra-plugin-anonymize-ua@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/puppeteer-extra-plugin-anonymize-ua/-/puppeteer-extra-plugin-anonymize-ua-2.3.2.tgz#b2d312bdd72ecf940edd2e27d29fff70b90bc3a7"
+  integrity sha512-YUdjNEbUW+KBZMHNWVqHj5RvJxixMo4/1PoDu4nCU/oXb9JDgBPRbmwIHck5Ogz3RhHOYR6NhAzNYMvR+tj/sA==
+  dependencies:
+    debug "^4.1.1"
+    puppeteer-extra-plugin "^3.2.0"
+
 puppeteer-extra-plugin-stealth@^2.7.8:
   version "2.8.1"
   resolved "https://registry.yarnpkg.com/puppeteer-extra-plugin-stealth/-/puppeteer-extra-plugin-stealth-2.8.1.tgz#14c5a2c760cea207632e4f29ccccdfb668553cba"
