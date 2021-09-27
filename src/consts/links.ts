@@ -9,4 +9,4 @@ const zalandoText = {
   passwordField: 'input[type="password"]',
   loginButton: 'button[data-testid="login_button"]',
 };
-module.exports = { zalandoUrls, zalandoText };
+export { zalandoUrls, zalandoText };

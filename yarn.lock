@@ -24,7 +24,7 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.10.1.tgz#f3647623199ca920960006b3dccf633ea905f243"
   integrity sha512-4/Z9DMPKFexZj/Gn3LylFgamNKHm4K3QDi0gz9B26Uk0c8izYf97B5fxfpspMNkWlFupblKM/nV8+NA9Ffvr+w==
 
-"@types/puppeteer@*":
+"@types/puppeteer@*", "@types/puppeteer@^5.4.3":
   version "5.4.4"
   resolved "https://registry.yarnpkg.com/@types/puppeteer/-/puppeteer-5.4.4.tgz#e92abeccc4f46207c3e1b38934a1246be080ccd0"
   integrity sha512-3Nau+qi69CN55VwZb0ATtdUAlYlqOOQ3OfQfq0Hqgc4JMFXiQT/XInlwQ9g6LbicDslE6loIFsXFklGh5XmI6Q==
@@ -435,7 +435,15 @@ puppeteer-element2selector@0.0.3:
   dependencies:
     "@medv/finder" "^2.0.0"
 
-puppeteer-extra-plugin-stealth@^2.8.1:
+puppeteer-extra-plugin-anonymize-ua@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/puppeteer-extra-plugin-anonymize-ua/-/puppeteer-extra-plugin-anonymize-ua-2.3.2.tgz#b2d312bdd72ecf940edd2e27d29fff70b90bc3a7"
+  integrity sha512-YUdjNEbUW+KBZMHNWVqHj5RvJxixMo4/1PoDu4nCU/oXb9JDgBPRbmwIHck5Ogz3RhHOYR6NhAzNYMvR+tj/sA==
+  dependencies:
+    debug "^4.1.1"
+    puppeteer-extra-plugin "^3.2.0"
+
+puppeteer-extra-plugin-stealth@^2.7.8:
   version "2.8.1"
   resolved "https://registry.yarnpkg.com/puppeteer-extra-plugin-stealth/-/puppeteer-extra-plugin-stealth-2.8.1.tgz#14c5a2c760cea207632e4f29ccccdfb668553cba"
   integrity sha512-UFCxt0+NkYROGzCK0voUwYA/WxC+m1jBYXasYZ6qxTcjIa3oN8f3Am6oGnhCPoO5OJv5QsDJA5lzZrGVqZ7NYw==
@@ -472,7 +480,7 @@ puppeteer-extra-plugin@^3.2.0:
     debug "^4.1.1"
     merge-deep "^3.0.1"
 
-puppeteer-extra@^3.2.2:
+puppeteer-extra@^3.1.18:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/puppeteer-extra/-/puppeteer-extra-3.2.2.tgz#cc28fed563d0eba29607731acd3400824bd91256"
   integrity sha512-mj+jyEEyRc+HFN8MmDMTeRHOGep3ljRF9kps6ipspL+aUjxWcIELsA3s8x6OsuxqNlH7b5/fU3MGbW41jvwxJw==
@@ -563,6 +571,11 @@ through@^2.3.8:
   version "2.3.8"
   resolved "https://registry.yarnpkg.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
   integrity sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=
+
+typescript@^4.3.2:
+  version "4.4.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.4.3.tgz#bdc5407caa2b109efd4f82fe130656f977a29324"
+  integrity sha512-4xfscpisVgqqDfPaJo5vkd+Qd/ItkoagnHpufr+i2QCHBsNYp+G7UAoyFl8aPtx879u38wPV65rZ8qbGZijalA==
 
 unbzip2-stream@1.3.3:
   version "1.3.3"
