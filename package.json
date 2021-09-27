@@ -10,7 +10,7 @@
     "start": "tsc && node --experimental-specifier-resolution=node dist/index.js"
   },
   "dependencies": {
-    "puppeteer": "5.4.1",
+    "puppeteer": "^10.4.0",
     "puppeteer-extra": "^3.1.18",
     "puppeteer-extra-plugin-stealth": "^2.7.8",
     "puppeteer-element2selector": "0.0.3"
