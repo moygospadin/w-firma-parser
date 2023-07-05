@@ -1,7 +1,11 @@
-import { zalandoLogin } from "./src/zalando";
+import { zalandoLogin, findSneakers } from "./src/zalando";
 import { zalandoText } from "./src/consts/links";
 const CREDS = {
-  username: "lesha.belenko1337@gmail.com",
-  password: "test1234test",
+  username: "00sneaz@gmail.com",
+  password: "b399b1d619",
 };
-zalandoLogin({ CREDS });
+async function start() {
+  const { page } = await zalandoLogin({ CREDS });
+  await findSneakers(zalandoText.airForceText, page);
+}
+start();
